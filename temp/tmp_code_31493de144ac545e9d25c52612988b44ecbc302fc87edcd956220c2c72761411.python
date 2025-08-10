@@ -1,0 +1,21 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the data from 'data.csv'
+data = pd.read_csv('data.csv')
+
+# Count the number of survivors and non-survivors
+survival_counts = data['Survived'].value_counts()
+
+# Plotting the data
+plt.figure(figsize=(6, 4))
+survival_counts.plot(kind='bar', color=['red', 'green'])
+plt.title('Survival Counts')
+plt.xlabel('Survived')
+plt.ylabel('Number of Passengers')
+plt.xticks(ticks=[0, 1], labels=['Did Not Survive', 'Survived'], rotation=0)
+plt.tight_layout()
+
+# Save the plot as an image
+plt.savefig('output.png')
+plt.show()

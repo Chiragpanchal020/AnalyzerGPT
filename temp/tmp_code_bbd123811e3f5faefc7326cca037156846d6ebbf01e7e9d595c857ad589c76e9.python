@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Load the data
+data = pd.read_csv('data.csv')
+
+# Show the first few rows and column names to determine the structure of the data
+print("Data Columns:", data.columns)
+print(data.head())

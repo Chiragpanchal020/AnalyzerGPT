@@ -1,0 +1,31 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Reload the data
+data = pd.read_csv('data.csv')
+
+# Calculate the count of each Pclass
+pclass_counts = data['Pclass'].value_counts()
+
+# Create the plot
+plt.figure(figsize=(10, 6))
+ax = pclass_counts.plot(kind='bar', color='cyan', edgecolor='black')
+
+# Setting a black background
+ax.set_facecolor('black')
+
+# Make plot labels and title white for contrast
+plt.title('Passenger Class Distribution', color='white')
+plt.xlabel('Passenger Class', color='white')
+plt.ylabel('Count', color='white')
+plt.xticks(color='white')
+plt.yticks(color='white')
+
+# Adjust the plot's background to black as well
+plt.gcf().patch.set_facecolor('black')
+
+# Save the figure
+plt.savefig('output.png')
+
+# Show the plot
+plt.show()

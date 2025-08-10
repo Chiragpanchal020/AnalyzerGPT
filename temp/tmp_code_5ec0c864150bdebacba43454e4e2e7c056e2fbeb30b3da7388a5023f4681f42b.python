@@ -1,0 +1,16 @@
+import pandas as pd
+
+# Load the data from 'data.csv'
+data = pd.read_csv('data.csv')
+
+# Display the first few rows and the names of the columns to understand the data structure
+print(data.head())
+print(data.columns)
+
+# Assuming the survival column is named something like 'Survived', count the survivors and non-survivors
+if 'Survived' in data.columns:
+    survival_counts = data['Survived'].value_counts()
+    print("Survival counts:")
+    print(survival_counts)
+else:
+    print("The survival column could not be identified in the data.")
