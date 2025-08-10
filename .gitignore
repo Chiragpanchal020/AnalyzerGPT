@@ -53,4 +53,4 @@ Thumbs.db
 .dockerignore
 
 # Project specific
-analyzer gpt.excalidraw
+# analyzer gpt.excalidraw - keeping this for design documentation

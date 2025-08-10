@@ -44,6 +44,10 @@ Streamlit UI ↔ AutoGen Orchestrator ↔ Docker Executor
 - **Data Analyzer**: Interprets queries, generates Python code
 - **Code Executor**: Runs code safely in Docker containers
 
+## 🎨 System Design
+
+The system architecture and design process is documented in `analyzer gpt.excalidraw` - open with [Excalidraw](https://excalidraw.com/) to view the visual system design and architecture diagrams.
+
 ## 🚀 Quick Start
 
 ```bash
