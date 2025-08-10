@@ -2,8 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
-[![AutoGen](https://img.shields.io/badge/AutoGen-0.2+-green.svg)](https://github.com/microsoft/autogen)
-[![AI](https://img.shields.io/badge/AI-LLM%20Powered-orange.svg)](https://openai.com/)
+[![AutoGen](https://img.shields.io/badge/AutoGen-0.4+-green.svg)](https://github.com/microsoft/autogen)
+[![LLM](https://img.shields.io/badge/LLM-Multi--Provider-orange.svg)](https://huggingface.co/models)
 [![Docker](https://img.shields.io/badge/Docker-Enabled-blue.svg)](https://www.docker.com/)
 
 > **Multi-agent AI system that transforms CSV data into insights through natural language conversations.**
